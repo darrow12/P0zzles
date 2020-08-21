@@ -6,4 +6,6 @@ O site <b>Enigma Matemático</b> é um site feito para a feira de ciências da m
 
 Como o próprio nome já diz, é um site que contém enigmas matemáticos, indo desde acertar o nome da fórmula de Bhaskara até de fato realizar uma conta para poder descobrir a resposta.
 
-<h1>O projeto ainda está em desenvolvimento.</h1>
+<hr>
+
+O projeto ainda está em desenvolvimento.
