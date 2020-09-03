@@ -1,0 +1,218 @@
+/* Background */
+
+#page-landing {
+  background: #121214;
+}
+
+/* Texto */
+
+h2 {
+  width: 100%;
+  margin: 25px 25px;
+  display: block;
+  padding: 0.4em;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 37px;
+  text-align: center;
+}
+
+p, span {
+  width: 100%;
+  margin: 25px 25px;
+  display: block;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+b {
+  color: orange;
+}
+
+.creditos {
+  text-decoration: none;
+}
+
+.creditos a {
+  text-decoration: none;
+  color: #4ad295;
+}
+
+.creditos .freepik {
+  color: #0074ef;
+}
+
+/* Imagem */
+
+.logo-container img {
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+  width: 10rem;
+}
+
+.logo-container {
+  text-align: center;
+
+}
+
+.hero-image {
+  width: 100%;
+}
+
+/* Responsivo */
+
+@media (min-width: 700px) {
+  #page-landing #container .buttons-container .logo-container {
+      max-width: 1100px;
+  }
+
+  #container {
+      margin: 0 auto;
+      text-align: center;
+
+  }
+
+  #container h2 {
+      font-size: 52px;
+      text-align: center;
+  }
+
+  #container p, span {
+      margin-top: 10px;
+      font-size: 16px;
+  }
+
+  .logo-container img {
+      margin-top: 5.6rem;
+      margin-bottom: 0.6rem;
+
+      margin-left: 0px;
+      width: 17rem;
+  }
+  
+  .logo-container {
+      text-align: center;
+  }
+  
+  .hero-image {
+      width: 100%;
+  }
+
+  .buttons-container a {
+      width: 15rem;
+      height: 7rem;
+      border-radius: .8rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 18px;
+      transition: background 0.2s;
+      color: white;
+      margin: 20px auto;
+  }
+}
+
+/* Animação */
+
+#page-landing {
+  animation-name: fade;
+  animation-duration: 500ms;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+#page-landing .logo-container, h2, b{
+  animation-name: fade;
+  animation-duration: 1020ms;
+    
+  @keyframes fade {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    
+}
+
+.creditos {
+ overflow: hidden;
+ animation: fade 0.2s;
+}
+
+.creditos span, p, b, ol:nth-child(1) {
+animation: move 500ms;
+}
+
+.creditos span, p, b, ol:nth-child(2) {
+animation: move 400ms;
+animation-delay: 100ms;
+animation-fill-mode: backwards;
+}
+
+.creditos span, p, b, ol{
+animation: move 400ms;
+animation-delay: 250ms;
+animation-fill-mode: backwards;
+}
+
+.creditos {
+overflow: hidden;
+animation: fade 0.2s;
+}
+
+span:nth-child(1) {
+animation: move 500ms;
+}
+
+.creditos span, b:nth-child(2) {
+animation: move 400ms;
+animation-delay: 200ms;
+animation-fill-mode: backwards;
+}
+
+.creditos span, b {
+animation: move 400ms;
+animation-delay: 370ms;
+animation-fill-mode: backwards;
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(-35%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
