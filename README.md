@@ -1,4 +1,7 @@
-# P0zzles
+<h1 align="center">
+  <img src="images/icon-logo.png" width="20%">
+  <br/>P0zzles
+</h1>
 
 O site <b>P0zzles</b> é um projeto feito para a feira de ciências da minha escola. Em meio a situação que estamos vivendo, percebe-se que tudo está acontecendo por meio da tecnologia, e já que eu não tenho ideia todo dia, resolvi colocar essa logo em prática para que eu não ache ruim futuramente.
 
