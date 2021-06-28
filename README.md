@@ -11,4 +11,4 @@ Como o próprio nome já diz, é um site que contém enigmas matemáticos, indo 
 
 <hr>
 
-O projeto ainda está em desenvolvimento.
+Finalizado, porém com bugs.
