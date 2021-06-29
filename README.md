@@ -1,8 +1,9 @@
 <p align="center">
   <img src="images/icon-logo.png" width="20%">
+  <h3 align="center">P0zzles</h3>
 </p>
 
-<p align="center">P0zzles</p>
+
 <br />
 <br />
 <br />
