@@ -2,7 +2,7 @@
   <img src="images/icon-logo.png" width="20%">
 </p>
 
-<h1 align="center">P0zzles</h1>
+<p align="center">P0zzles</p>
 <br />
 <br />
 <br />
