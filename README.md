@@ -3,9 +3,6 @@
   <h3 align="center">P0zzles</h3>
 </p>
 
-
-<br />
-<br />
 <br />
 
 # Sobre
