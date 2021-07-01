@@ -15,4 +15,4 @@ Como o próprio nome já diz, é um site que contém enigmas matemáticos, indo 
 
 <hr>
 
-Finalizado, porém com bugs.
+Finalizado, porém com bugs. Reporte-os em p0zzles.site@gmail.com
