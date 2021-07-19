@@ -17,3 +17,4 @@ Como o próprio nome já diz, é um site que contém enigmas matemáticos, indo 
 
 Finalizado, porém com bugs. Reporte-os em p0zzles.site@gmail.com.
 
+:framed_picture:
